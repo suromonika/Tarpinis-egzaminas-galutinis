@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+  padding: 8px 150px;
+  height: 50px;
+  width: 100%;
+  font-family: lato;
+  background-color: $grey;
+  box-sizing: border-box;
+  z-index: 2;
+  a {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: $blue;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.8em;
+    top: 7px;
+    right: 50px;
+  }
+  p {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  }
+}

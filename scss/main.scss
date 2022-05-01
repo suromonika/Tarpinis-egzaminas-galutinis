@@ -1,0 +1,66 @@
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-top: 205px;
+  padding-bottom: 205px;
+  width: 100%;
+  background: url($img01);
+  background-size: cover;
+  background-position: center;
+
+  &:before {
+    position: absolute;
+    content: '';
+    background: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+  }
+
+  h1 {
+    z-index: 1;
+    width: 50%;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  input {
+    padding: 10px 300px 10px 15px;
+    margin-top: 30px;
+    background-color: $grey;
+    border: 2px solid rgba(17, 3, 3, 0.575);
+    border-radius: 4px;
+    font-family: lato;
+    font-size: 1.1em;
+  }
+
+  a {
+    padding: 10px 30px;
+    margin-left: 5px;
+    background-color: $blue;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .sign-up {
+    z-index: 1;
+  }
+
+  .bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &:before {
+      position: absolute;
+      height: 100%;
+    }
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
